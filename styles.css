@@ -11,76 +11,74 @@
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-body,
-h1,
-h2,
-h3,
-p,
-ol,
-ul,
-li,
-a, 
-img {
   margin: 0;
   padding: 0;
 }
 
-ul, ol {
+/* Remove list styles */
+ul,
+ol {
   list-style: none;
 }
 
-/* Global Styles (mobile first approach) */
+/* Global Styles (Mobile First) */
 body {
- max-width: 640px;
-  margin: 96px auto;
+  max-width: 640px;
+  margin: 96px auto 320px;
   padding: 0 24px;
-  font-family: "Sora", serif;
-  font-size: 1.25rem; /* 20px*/
-  font-weight: 400; 
-  color: #52525A; 
-  background-color: #FAFAF9;
+  font-family: 'Sora', serif;
+  font-size: 1.25rem; /* 20px */
+  font-weight: 400;
+  color: #52525a;
+  background-color: #fafaf9;
   line-height: 1.75;
 }
 
-/* Typography */
+/* Headings */
 h1 {
   font-size: 2.25rem; /* 36px */
-  font-weight: 600; 
-  color: #18181B;
-  /* margin: 24px 0; */
+  font-weight: 600;
+  color: #18181b;
 }
 
 h2 {
-  font-weight: 600; 
-  color: #18181B;
-  /* margin: 20px 0; */
+  font-size: 1rem; /* 16px */
+  font-weight: 600;
+  color: #18181b;
+  margin-top: 14px;
 }
 
-
-
-
-.top-image {
-  max-width: 48px;
-}
-
+/* Testimonial Section */
 .testimonial-section {
+  font-size: 1rem; /* 16px */
   display: flex;
   flex-direction: column;
 }
 
-.google-testimonial {
-  max-width: 55%;
+/* Top Star Image */
+.top-image {
+  max-width: 48px;
 }
 
+/* Google and Meta Testimonials */
+.google-testimonial,
+.meta-testimonial {
+  max-width: 55%;
+  margin-top: 96px;
+}
+
+.google-testimonial {
+  align-self: flex-end;
+}
+
+.meta-testimonial {
+  align-self: flex-start;
+}
+
+/* Company Logos and Stars */
 .company-logo-with-review-star-container {
   display: flex;
   align-items: center;
-}
-
-.review-stars-container {
-  display: flex;
 }
 
 .company-logo {
@@ -92,10 +90,10 @@ h2 {
   max-width: 20px;
 }
 
+/* Checklist Section */
 .checklists-container {
   margin-top: 28px;
   font-size: 0.875rem; /* 14px */
-
 }
 
 .checklists-container li {
@@ -107,4 +105,10 @@ h2 {
 .checklists-container li img {
   max-width: 20px;
   margin-right: 10px;
+}
+
+
+/* Media Query for larger devices (min-width: 1024px) */
+@media (min-width: 1024px) {
+  
 }
