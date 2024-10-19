@@ -21,7 +21,90 @@ p,
 ol,
 ul,
 li,
-a {
+a, 
+img {
   margin: 0;
   padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* Global Styles (mobile first approach) */
+body {
+ max-width: 640px;
+  margin: 96px auto;
+  padding: 0 24px;
+  font-family: "Sora", serif;
+  font-size: 1.25rem; /* 20px*/
+  font-weight: 400; 
+  color: #52525A; 
+  background-color: #FAFAF9;
+  line-height: 1.75;
+}
+
+/* Typography */
+h1 {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 600; 
+  color: #18181B;
+  /* margin: 24px 0; */
+}
+
+h2 {
+  font-weight: 600; 
+  color: #18181B;
+  /* margin: 20px 0; */
+}
+
+
+
+
+.top-image {
+  max-width: 48px;
+}
+
+.testimonial-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.google-testimonial {
+  max-width: 55%;
+}
+
+.company-logo-with-review-star-container {
+  display: flex;
+  align-items: center;
+}
+
+.review-stars-container {
+  display: flex;
+}
+
+.company-logo {
+  max-width: 86px;
+  margin-right: 18px;
+}
+
+.review-stars {
+  max-width: 20px;
+}
+
+.checklists-container {
+  margin-top: 28px;
+  font-size: 0.875rem; /* 14px */
+
+}
+
+.checklists-container li {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.checklists-container li img {
+  max-width: 20px;
+  margin-right: 10px;
 }
