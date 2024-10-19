@@ -20,6 +20,6 @@ This is a simple testimonial page showcasing reviews for a service, with additio
 
 ## Shoutout
 
-This project is based on the [Testimonial Page Challenge](https://devchallenges.io/challenge/testimonial-page) by [DevChallenges](https://devchallenges.io/)  :`)`
+This project is based on the [Testimonial Page Challenge](https://devchallenges.io/challenge/testimonial-page) by [DevChallenges](https://devchallenges.io/)  `:)`
 
  
